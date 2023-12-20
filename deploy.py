@@ -3,7 +3,6 @@ import pandas as pd
 import plotly.express as px
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
-import statsmodels.api as sm
 import pickle 
 
 st.image("Image.jpg",width=600)
