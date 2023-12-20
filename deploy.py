@@ -212,7 +212,7 @@ if select_model == 'Ridge Regression':
     st.write(X)
     st.write("Predicted CO")
 
-    model = pickle.load(open("RidgeModel.sav","rb"))
+    model = pickle.load(open("Ridgemodel.sav","rb"))
 
     pred = model.predict(X)[0]
     res = "The CO(GT) of input feature is " +str(pred)
